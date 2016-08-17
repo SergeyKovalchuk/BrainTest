@@ -7,6 +7,5 @@ import { Component, View } from 'angular2/core';
 })
 export class Home {
 
-    constructor() {
-    }
+    constructor() {}
 }
