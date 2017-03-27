@@ -1,0 +1,49 @@
+{
+  "name": "brain-test",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --json --progress",
+    "build": "rm -rf dist/* && webpack --progress --colors",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergeyKovalchuk/BrainTest.git"
+  },
+  "keywords": [
+    "Angular",
+    "typescript",
+    "EPAM",
+    "redux"
+  ],
+  "author": "EPAM Systems",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SergeyKovalchuk/BrainTest/issues"
+  },
+  "homepage": "https://github.com/SergeyKovalchuk/BrainTest#readme",
+  "dependencies": {
+    "angular2": "2.0.0-beta.0",
+    "bootstrap": "github:twbs/bootstrap#v4.0.0-alpha",
+    "node-sass": "3.8.0"
+  },
+  "devDependencies": {
+    "css-loader": "0.23.1",
+    "file-loader": "0.9.0",
+    "html-loader": "0.4.3",
+    "html-webpack-plugin": "2.22.0",
+    "json-loader": "0.5.4",
+    "path": "0.12.7",
+    "raw-loader": "0.5.1",
+    "sass-loader": "4.0.0",
+    "style-loader": "0.13.1",
+    "ts-loader": "0.8.2",
+    "typescript": "1.7.5",
+    "url-loader": "0.5.7",
+    "util": "0.10.3",
+    "webpack": "1.13.1",
+    "webpack-dev-server": "1.14.1"
+  }
+}
